@@ -6,7 +6,7 @@ In this example, we're going to take another look at nonlinear regression modell
 ## Data
 
 
-The data we're going to use records fish population counts as a function of time.  Here, we plot the  data with both points and lines to give some idea of the temporal evolution.  The data shows an increase in population from zero at the beginning of the data set to a maximum, followed by a declines back towards low population levels.
+The data mmmmmmmm we're going to use records fish population counts as a function of time.  Here, we plot the  data with both points and lines to give some idea of the temporal evolution.  The data shows an increase in population from zero at the beginning of the data set to a maximum, followed by a declines back towards low population levels.
 
 
 >> fishery = #Examples#"NL Regression Example 2"#fishery
