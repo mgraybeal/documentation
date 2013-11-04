@@ -5,7 +5,7 @@ help-section-order: 1
 ---
 
 
-This is the first document in a "quick tour" of the Baysig programming
+This is the first docume in a "quick tour" of the Baysig programming
 language.
 
 The tour can be found in these sections:
