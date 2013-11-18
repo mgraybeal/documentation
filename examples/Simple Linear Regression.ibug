@@ -1,3 +1,22 @@
+## How To Access the Linear Regression Model Builder in Baysig
+
+To apply Bayesian analysis to a simple linear regression, go to the BayesHive Dashboard. Click on the arrow on the top left-hand side labeled "Add." Select the item labeled "Build Model" and then "Linear Regression." The Linear Regression Model Builder will appear. It will walk you through data and variable selection as follows:
+On the Linear Regression Model Builder, you'll be presented with a list of the data sets within your repository (?).  Beside each data set's name are listed the fields within the data set. Select a data set by clicking on it. It will be highlighted in yellow.
+At the top of the screen, click Variables, and you'll be presetned wtih duplicate lists of the fields within the data set you've selected. These two lists allow you to choose the independentvariable and the dependent variables of the regression model you're building. Select each variable by clicking in the circle to the left of the variable name. Also available for selection is a distribution for your model's errors; at present, only a Normal distribution is available here. When you've selected your model's variables, click on "Priors" at the top of the screen. 
+Here you'll be given the opportunity to select the priors for your model's parameters β0, β coefficients of the model's independent variable(s), and  variance. Distribution choices for each are the following:
+- Unbounded Uniform(-∞, +∞)
+- Positive Uniform(0, +∞)
+- Bounded Uniform (x-low, x-high)
+- Normal(µ, σ-square)
+- Gamma(k, θ)
+- Inverse Gamma(α, β)
+- Log-Normal(µ, σ-square)
+
+After specifying model parameters, click on the "Tests" tab at the top of the screen to complete model specification, and a screen permitting specification of tests and plots come up. 
+Under "Specify Tests," the sign (greater than 0 or less than 0) can be selected for all regression model parameters and the variance (?). 
+Under "Specify Plots," plots of only certain regression model parameters and the variance can be selected, or, with the "Enable All Plots" command, all parameters and the variance. Plots available are the distribution, data fit, residuals (model coefficients), residuals, and MCMC history. Select the plots desired by clicking in the appropriate square.
+To complete model specification, select the name of the document to which Baysig's results will be written next to "Paste model into." This can be a pre-existing document, whose name will be available as you scroll through the list. You also have the option to create a new document to hold it. To have Baysig create your model, click "Next" in the top left hand.
+
 In this example, we're going to look at one of the most common and simplest statistical tasks: univariate linear regression.  We'll create some test data that follows the "standard assumptions" of the usual least squares fitting model and compare the results from a Bayesian and a "standard" analysis, then we'll look at what happens if our data don't follow the standard assumptions.
 
 
